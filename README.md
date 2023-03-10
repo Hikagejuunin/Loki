@@ -1,9 +1,7 @@
 # Loki
 Loki serpent combat system for Achaea
 
-To install first import the "loki.1.0.scripts", "loki.1.0.aliases", "loki.1.0.triggers" files into mudlet. 
-
-Next you will want to edit Lokisettings with your own values. 
+To install first import the "loki.1.0.scripts", "loki.1.0.aliases", "loki.1.0.triggers" files into Mudlet (https://www.mudlet.org/). 
 
 I've included a read me in the scripts folder which I'll just dump here until I can give this more time.
 
