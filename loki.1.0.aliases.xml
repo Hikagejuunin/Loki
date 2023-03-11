@@ -45,7 +45,7 @@ vright = venoms[matches[3]] or vleft
 
 --MESMER HYPNOSIS
 function mesmer_push()
-  if (no_hyp == true) then
+  if no_hyp == true then
   elseif mesmer.status == "none" then
     mesmer.reset()
     expandAlias(hypnoout)
@@ -76,7 +76,7 @@ if not vleft then
   return
 end 
 
-if ak.defs.shield and auto_flay then
+if (ak.defs.shield and auto_flay) then
   sendAll("cq all","setalias qfls "..prefix().."/parry "..parryrando().."/wield "..myWhip.." "..myShield.."/flay "..target.." shield "..vleft,"queue add eqbal qfls")
   cecho("&lt;orange&gt;[FLAY]: flaying &lt;red&gt;"..target.."&lt;orange&gt;'s &lt;cyan&gt;shield&lt;orange&gt; with: [&lt;yellow&gt;"..vleft.."&lt;orange&gt;]")
 elseif ak.defs.rebounding and auto_flay then
@@ -124,7 +124,7 @@ local vbite = venoms[matches[2]]
 
 --MESMER HYPNOSIS
 function mesmer_push()
-  if (no_hyp == true) then
+  if no_hyp == true then
   elseif mesmer.status == "none" then
     mesmer.reset()
     expandAlias(hypnoout)
@@ -201,7 +201,7 @@ end
 
 --MESMER HYPNOSIS
 function mesmer_push()
-  if (no_hyp == true) then
+  if no_hyp == true then
   elseif mesmer.status == "none" then
     mesmer.reset()
     expandAlias(hypnoout)
