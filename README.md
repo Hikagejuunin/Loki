@@ -56,9 +56,7 @@ vconfig customprompt ^SlateGrayH:^1@health^r@(diffhealth)^SlateGray(^azure@%heal
 vconfig customprompt \n^SlateGrayH:^1@health^r@(diffhealth)^SlateGray(^azure@%health%^SlateGray) ^SlateGrayM:^2@mana^b@(diffmana)^SlateGray(^azure@%mana%^SlateGray) ^DarkSlateGray(^G@%endurance^SlateGrayE ^G@%willpower^SlateGrayW^DarkSlateGray) ^2^gold^DarkOrange@eqbal @affs^W -^SlateGray ^red@target ^SlateGray(^w@gametargethp^SlateGray) ^y@ml_oprompt
 
 
--------------------------------------\
 CORE COMMANDS:
--------------------------------------/
 
 ds<xx> - dstab alias             
   example: ds<ck> = dstab curare/kalmia
