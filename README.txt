@@ -9,7 +9,7 @@ To install first import the "loki.1.0.scripts", "loki.1.0.aliases", "loki.1.0.tr
 I've included a read me in the scripts folder which I'll just dump here until I can give this more time.
 
 Loki is a serpent offense system to handle your venom selection, hypnosis queueing, and other various aspects combat. 
-I'd thank everyone who helped me get to where I am today. Shout out to Fen, Janella, Siv, Agramon, Arcturus, Balkin, Oblive, Essie, Sylvi and many many more.
+I'd like to thank everyone who helped me get to where I am today. Shout out to Fen, Janella, Siv, Agramon, Arcturus, Balkin, Oblive, Essie, Sylvi and many many more.
 I'd also like to thank the third party code I made use of for this release, primarily Mesmer and Austere's AK tracker
 
 It's my hope this slimmed down basic serpent combat system can encourage more involvement for typically non-combatants.
