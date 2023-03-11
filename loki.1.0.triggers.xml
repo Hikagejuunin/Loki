@@ -393,7 +393,6 @@ if mesmer.status == "sealed" then
   if hypsts then killTimer(hypsts) end
   if delhyp then killTimer(delhyp) end
   hldbal = tempTimer(2, [[holdbal = false]]) 
-  --hypsts = tempTimer(2.5, [[hypstatus = false]])
   hypsts = tempTimer(3.5, [[hypstatus = false]])
   delhyp = tempTimer(6, [[hyp_delay = nil]])
   requeue_stab() 
@@ -497,21 +496,13 @@ end
   if treeTimer9 then return end
   if treeTimer then return end
   
-  --if treeTimer0 then killTimer(treeTimer0) end
-  --if treeTimer6 then killTimer(treeTimer6) end
-  --if treeTimer9 then killTimer(treeTimer9) end
-  --if treeTimer then killTimer(treeTimer) end
-  
   treeTimer0 = tempTimer(0,[[cecho("&lt;orange&gt;\n[TREE]: &lt;yellow&gt;tree down on &lt;red&gt;"..target.." &lt;yellow&gt;for &lt;white&gt;14 seconds...\n") treeTimer0 = nil]])
   treeTimer4 = tempTimer(4,[[cecho("&lt;orange&gt;\n[TREE]: &lt;yellow&gt;tree down on &lt;red&gt;"..target.." &lt;yellow&gt;for &lt;white&gt;10 seconds...\n") treeTimer4 = nil]])
   treeTimer9 = tempTimer(9,[[cecho("&lt;orange&gt;\n[TREE]: &lt;yellow&gt;tree down on &lt;red&gt;"..target.." &lt;yellow&gt;for &lt;white&gt;5 seconds...\n") treeTimer9 = nil]])
   treeTimer = tempTimer(14, [[cecho("&lt;orange&gt;\n[TREE]: &lt;red&gt;"..target.." &lt;yellow&gt;can now use tree!!!\n") treeTimer = nil]])
 end
 
---treeTimer0 = tempTimer(0,[[cecho("&lt;orange&gt;\n[TREE]: &lt;yellow&gt;tree down on &lt;red&gt;"..target.." &lt;yellow&gt;for &lt;white&gt;14 seconds...\n")]])
---treeTimer4 = tempTimer(4,[[cecho("&lt;orange&gt;\n[TREE]: &lt;yellow&gt;tree down on &lt;red&gt;"..target.." &lt;yellow&gt;for &lt;white&gt;10 seconds...\n")]])
---treeTimer9 = tempTimer(9,[[cecho("&lt;orange&gt;\n[TREE]: &lt;yellow&gt;tree down on &lt;red&gt;"..target.." &lt;yellow&gt;for &lt;white&gt;5 seconds...\n")]])
---treeTimer = tempTimer(14,[[cecho("&lt;orange&gt;\n[TREE]: &lt;red&gt;"..target.." &lt;yellow&gt;can now use tree!!!\n")]])</script>
+</script>
 						<triggerType>0</triggerType>
 						<conditonLineDelta>0</conditonLineDelta>
 						<mStayOpen>0</mStayOpen>
