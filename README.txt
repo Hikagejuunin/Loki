@@ -20,10 +20,10 @@ GETTING STARTED:
 
 First off make sure you edit the script "Lokisettings" with your own variables in the "--SYSTEM VARS" section. 
 The system's functioning depends on you providing your updated variables (equipment, snaketype ...etc)
-Please leave the "--SYSTEM DEFAULTS" alone as these just provide default baseline values for the system to start in.
+You can change most of the "--SYSTEM DEFAULTS" if you want, but the defaults are fine.
 
 ** You will also want to add a custom prompt if ya got svof, otherwise see how Austere's AK handles that for other curing systems:
-*** Also I disabled the graphical AK stuff, if ya want it enable in Osettings!
+*** Also I disabled the graphical AK stuff, if ya want it enable in Osettings! There you should also specify what dirk artefact you have, default is Thoth's
 
 from Osettings!:
 ----------------------------------------------------------------------------------------------------------------------
@@ -61,6 +61,7 @@ CORE COMMANDS:
 ds<xx> - dstab alias             
   example: ds<ck> = dstab curare/kalmia
 ** "ds" without venom selections selects them automatically, you can manipulate these with "vt <selection>"
+  example: "vt w" = add weariness to lockstack 
 
 manual dstab venom selections:
 
@@ -86,6 +87,7 @@ x = "xentio"
 z = "vardrax"
 
 bs<x> - bite alias
+** bs with no venoms specified will automatically select venoms from bitestack
   
 manual bite venoms:
 
