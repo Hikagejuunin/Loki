@@ -1,6 +1,8 @@
 # Loki
 Loki serpent combat system for Achaea
 
+** note: includes a AK aff tracker by Austere and a Mesmer by Isaiah
+
 To install first import the "loki.1.0.scripts", "loki.1.0.aliases", "loki.1.0.triggers" files into Mudlet (https://www.mudlet.org/). 
 
 I've included a read me in the scripts folder which I'll just dump here until I can give this more time.
