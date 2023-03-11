@@ -3,19 +3,20 @@ Loki serpent combat system for Achaea
 
 ** note: includes AK aff tracker by Austere and a Mesmer by Isaiah
 
+
 To install first import the "loki.1.0.scripts", "loki.1.0.aliases", "loki.1.0.triggers" files into Mudlet (https://www.mudlet.org/). 
 
 I've included a read me in the scripts folder which I'll just dump here until I can give this more time.
 
 Loki is a serpent offense system to handle your venom selection, hypnosis queueing, and other various aspects combat. 
-I'd thank everyone who helped me get to where I am today. Shout out to Fen, Agramon, Arcturus, Balkin, Oblive, Essie and many many more.
-I'd also like to thank the third party code I made use of for this release, primarily Mesmer and Austere's AK
+I'd thank everyone who helped me get to where I am today. Shout out to Fen, Agramon, Arcturus, Balkin, Oblive, Essie, Sylvi and many many more.
+I'd also like to thank the third party code I made use of for this release, primarily Mesmer and Austere's AK tracker
+
 It's my hope this slimmed down basic serpent combat system can encourage more involvement for typically non-combatants.
 I hope this start provides a framework to expand upon and create your own system.
 
--------------------------------------\
+
 GETTING STARTED:
--------------------------------------/
 
 First off make sure you edit the script "Lokisettings" with your own variables in the "--SYSTEM VARS" section. 
 The system's functioning depends on you providing your updated variables (equipment, snaketype ...etc)
