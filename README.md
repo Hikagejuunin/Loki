@@ -86,6 +86,7 @@ x = "xentio"
 z = "vardrax"
 
 bs<x> - bite alias
+  
 manual bite venoms:
    a = "aconite",
    b = "oculus",
@@ -111,6 +112,7 @@ manual bite venoms:
    z = "vardrax",
 
 other aliases:
+  
 ps = pinshot
 cl = conjure lightwall
 ms = push mesmer hypnosis
