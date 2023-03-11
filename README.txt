@@ -88,46 +88,35 @@ z = "vardrax"
 bs<x> - bite alias
   
 manual bite venoms:
-   a = "aconite",
-   b = "oculus",
-   c = "camus",
-   d = "delphinium",
-   e = "eurypteria",
-   f = "epteth",
-   g = "gecko",
-   i = "digitalis",
-   k = "kalmia",
-   l = "loki",
-   m = "nechamandra",      -- useful after lock to freeze/disrupt
-   n = "notechis",         -- magi class blocker
-   o = "voyria",
-   p = "prefarar",
-   q = "epseth",
-   r = "darkshade",
-   s = "scytherus",
-   u = "euphorbia",
-   v = "vernalius",
-   x = "xentio",
-   y = "oculus",           -- use against trueblind opponents/those you aren't able to hypnotize
-   z = "vardrax",
 
-other aliases:
-  
-ps = pinshot
-cl = conjure lightwall
-ms = push mesmer hypnosis
-tr = target reset
-qh <option> = custom hypnosis
-sn <direction> = snipe
-sm = shoot meteor
-pl = party leader (make target calls to party)
-pc = listen to party aff calls
-pa = announce affs to party
-af = toggles autoflay
-as = toggles autosnapper
-nh = toggles hypnosis
-sv = summon your snake
+a = "aconite",
+b = "oculus",
+c = "camus",
+d = "delphinium",
+e = "eurypteria",
+f = "epteth",
+g = "gecko",
+i = "digitalis",
+k = "kalmia",
+l = "loki",
+m = "nechamandra",      -- useful after lock to freeze/disrupt
+n = "notechis",         -- magi class blocker
+o = "voyria",
+p = "prefarar",
+q = "epseth",
+r = "darkshade",
+s = "scytherus",
+u = "euphorbia",
+v = "vernalius",
+x = "xentio",
+y = "oculus",           -- use against trueblind opponents/those you aren't able to hypnotize
+z = "vardrax",
 
+--CUSTOM PVP SETTINGS
+"cs <class> = will set several offensive variables for a specific class
+   example: "cs kni" = [imp] hypno; [wea] vstack; [wea] postlock
+   example: "cs drg" = [imp add hyp rec con] hypno; [wea/dark] vstack; [wea] postlock; weaving on
+"cs" without an option will resets to defaults
 
 --VSTACK SELECTION
 "vt w" - weariness 
@@ -155,11 +144,22 @@ sv = summon your snake
 "vt aem" = airelemental (voyria)
 "vt none" = resets postlock to default 
 
---CUSTOM PVP SETTINGS
-"cs <class> = will set several offensive variables for a specific class
-   example: "cs kni" = [imp] hypno; [wea] vstack; [wea] postlock
-   example: "cs drg" = [imp add hyp rec con] hypno; [wea/dark] vstack; [wea] postlock; weaving on
-"cs" without an option will resets to defaults
+other aliases:
+  
+ps = pinshot
+cl = conjure lightwall
+ms = push mesmer hypnosis
+tr = target reset
+qh <option> = custom hypnosis
+sn <direction> = snipe
+sm = shoot meteor
+pl = party leader (make target calls to party)
+pc = listen to party aff calls
+pa = announce affs to party
+af = toggles autoflay
+as = toggles autosnapper
+nh = toggles hypnosis
+sv = summon your snake
 
 --OTHER SETTINGS
 "vt nt" = toggles if autosnap will wait to snap when tree is down
