@@ -409,7 +409,7 @@ end
 
 --PREFIX (actions taken before dstab)
 function prefix()
-  local pref = {"stand","purge"}
+  local pref = {"stand","order "..mySnake.." attack "..target,"purge"}
   pf = table.concat(pref, "/")
   return pf
   end
