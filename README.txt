@@ -1,5 +1,5 @@
 # Loki
-Loki serpent combat system for Achaea
+Loki - a serpent combat system for Achaea
 
 ** note: includes AK aff tracker by Austere and a Mesmer by Isaiah
 
@@ -8,13 +8,9 @@ To install first import the "loki.1.0.scripts", "loki.1.0.aliases", "loki.1.0.tr
 
 I've included a read me in the scripts folder which I'll just dump here until I can give this more time.
 
-Loki is a serpent offense system to handle your venom selection, hypnosis queueing, and other various aspects combat. 
-I'd like to thank everyone who helped me get to where I am today. Shout out to Fen, Janella, Siv, Agramon, Arcturus, Balkin, Oblive, Essie, Sylvi and many many more.
-I'd also like to thank the third party code I made use of for this release, primarily Mesmer and Austere's AK tracker
+Loki is a serpent offense system to handle your venom selection, hypnosis queueing, and other various aspects of combat. 
 
-It's my hope this slimmed down basic serpent combat system can encourage more involvement for typically non-combatants.
-I hope this start provides a framework to expand upon and create your own system.
-
+It's my hope this slimmed down, basic serpent offense system can encourage more involvement from those typically non-combatants as a functional framework to expand upon and create thier own systems.
 
 GETTING STARTED:
 
@@ -60,8 +56,10 @@ CORE COMMANDS:
 
 ds<xx> - dstab alias             
   example: ds<ck> = dstab curare/kalmia
-** "ds" without venom selections selects them automatically, you can manipulate these with "vt <selection>"
+** 'ds' with no venoms specified will automatically select venoms from lockstack
+** you can manipulate venom table loadouts with "vt <selection>"
   example: "vt w" = add weariness to lockstack 
+    * currently only includes "w", "c", "d", "k" for pre-snap loadouts - this is something you could easily expanded upon
 
 manual dstab venom selections:
 
@@ -162,6 +160,7 @@ af = toggles autoflay
 as = toggles autosnapper
 nh = toggles hypnosis
 sv = summon your snake
+st = snap target
 
 --OTHER SETTINGS
 "vt nt" = toggles if autosnap will wait to snap when tree is down
