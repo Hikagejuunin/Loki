@@ -12,6 +12,9 @@ Loki is a serpent offense system to handle your venom selection, hypnosis queuei
 
 It's my hope this slimmed down, basic serpent offense system can encourage more involvement from those typically non-combatants as a functional framework to expand upon and create thier own systems.
 
+Shout out to Fen, Janella, Siv, Agramon, Arcturus, Balkin, Oblive, Essie, Sylvi and many many more.
+I'd also like to thank the third party code I made use of for this release, primarily Mesmer and Austere's AK tracker
+
 GETTING STARTED:
 
 First off make sure you edit the script "Lokisettings" with your own variables in the "--SYSTEM VARS" section. 
