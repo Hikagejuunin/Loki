@@ -62,7 +62,7 @@ ds<xx> - dstab alias
 ** 'ds' with no venoms specified will automatically select venoms from lockstack
 ** you can manipulate venom table loadouts with "vt <selection>"
   example: "vt w" = add weariness to lockstack 
-    * currently only includes "w", "c", "d", "k" for pre-snap loadouts - this is something you could easily expanded upon
+    * currently only includes "w", "c", "d", "k" for pre-snap loadouts - this is something you could easily expand upon
 
 manual dstab venom selections:
 
@@ -118,7 +118,7 @@ z = "vardrax",
 --CUSTOM PVP SETTINGS
 "cs <class> = will set several offensive variables for a specific class
    example: "cs kni" = [imp] hypno; [wea] vstack; [wea] postlock
-   example: "cs drg" = [imp add hyp rec con] hypno; [wea/dark] vstack; [wea] postlock; weaving on
+   example: "cs drg" = [imp add hyp rec con] hypno; [wea/dark] vstack; [wea] postlock
 "cs" without an option will resets to defaults
 
 --VSTACK SELECTION
