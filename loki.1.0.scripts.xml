@@ -27,7 +27,7 @@ mySnake = "viper"
 mySnakeName = "a green eyelash viper"
 myCitySnake = "viper"
 mySnap = 0.65                    -- (suggested: 0.45-0.85, will need to play with it to adjust for your dstab speed)
-myDefTarget = "Hikagejuunin"     -- default target, you can pick another prick if ya like
+myDefTarget = "Hikagejuunin"     -- default target, you can pick someone else if ya like
 
 -------------------------------------------------------------------------------------------------------
 --SYSTEM DEFAULTS (do not change unless you want different defaults)
