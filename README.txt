@@ -24,7 +24,7 @@ You can change most of the "--SYSTEM DEFAULTS" if you want, but the defaults are
 ** You will also want to add a custom prompt if ya got svof, otherwise see how Austere's AK handles that for other curing systems:
 *** Also I disabled the graphical AK stuff, if ya want it enable in Osettings! There you should also specify what dirk artefact you have, default is Thoth's
 
-from Osettings!:
+from AK tracker's Osettings!:
 ----------------------------------------------------------------------------------------------------------------------
 
 --*
@@ -44,6 +44,7 @@ from Osettings!:
 
 -----------------------------------------------------------------------------------------------------------------------
 
+EXAMPLE CUSTOM PROMPTS:
 
 --Hika original
 vconfig customprompt ^1@health^pinkhp^r@(diffhealth)^gray(^2@%health^g%^gray)^c|^2@mana^bmp^2^gray^b@diffmana^gray(^2@%mana^g%^gray)^c|^gray(@%endurance%^g^yellowen^gray)^c|^gray(@%willpower%^g^magentawp^gray)^c|^2^gold^DarkOrange@eqbal@affs^W-^c| ^r@target @promptstring @gametargethp ^y@ml_oprompt
@@ -62,7 +63,7 @@ ds<xx> - dstab alias
 ** 'ds' with no venoms specified will automatically select venoms from lockstack
 ** you can manipulate venom table loadouts with "vt <selection>"
   example: "vt w" = add weariness to lockstack 
-    * currently only includes "w", "c", "d", "k" for pre-snap loadouts - this is something you could easily expand upon
+    * currently only includes "w" (weariness), "c" (clumsiness), "d" (darkshade), "k" (kelp stack) for pre-snap loadouts - this is something you could easily expand upon
 
 manual dstab venom selections:
 
@@ -119,7 +120,7 @@ z = "vardrax",
 "cs <class> = will set several offensive variables for a specific class
    example: "cs kni" = [imp] hypno; [wea] vstack; [wea] postlock
    example: "cs drg" = [imp add hyp rec con] hypno; [wea/dark] vstack; [wea] postlock
-"cs" without an option will resets to defaults
+"cs" without an option will reset to defaults
 
 --VSTACK SELECTION
 "vt w" - weariness 
@@ -153,8 +154,8 @@ ps = pinshot
 cl = conjure lightwall
 ms = push mesmer hypnosis
 tr = target reset
-qh <option> = custom hypnosis
-sn <direction> = snipe
+qh <option> = custom hypnosis, can also do [1-10] to set a custom seal time, then you can sugga <action1, action2, action3...etc> and progress hypnosis with the 'ms' alias (in situations such as theft)
+sn <direction> = snipe +- aim
 sm = shoot meteor
 pl = party leader (make target calls to party)
 pc = listen to party aff calls
