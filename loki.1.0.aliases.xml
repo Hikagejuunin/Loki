@@ -45,7 +45,7 @@ vright = venoms[matches[3]] or vleft
 
 --MESMER HYPNOSIS
 function mesmer_push()
-  if (no_hyp == true) then
+  if no_hyp == true then
   elseif mesmer.status == "none" then
     mesmer.reset()
     expandAlias(hypnoout)
@@ -124,7 +124,7 @@ local vbite = venoms[matches[2]]
 
 --MESMER HYPNOSIS
 function mesmer_push()
-  if (no_hyp == true) then
+  if no_hyp == true then
   elseif mesmer.status == "none" then
     mesmer.reset()
     expandAlias(hypnoout)
