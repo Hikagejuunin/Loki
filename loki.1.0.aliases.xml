@@ -201,7 +201,7 @@ end
 
 --MESMER HYPNOSIS
 function mesmer_push()
-  if (no_hyp == true) then
+  if no_hyp == true then
   elseif mesmer.status == "none" then
     mesmer.reset()
     expandAlias(hypnoout)
@@ -227,23 +227,21 @@ end
 
 if t ~= nil then
   if isLightWall() then
-    sendAll("cq all","setalias qpshot "..prefix().."/block "..lightwalldir.."/remove "..myBow.."/wield "..myBow.."/pinshot "..t,"queue add eqbal qpshot")
+    sendAll("cq all","setalias qpshot "..prefix().."/remove "..myBow.."/wield "..myBow.."/pinshot "..t,"queue add eqbal qpshot")
   else
-    sendAll("cq all","setalias qpshot "..prefix().."/block "..lightwalldir.."/remove "..myBow.."/wield "..myBow.."/pinshot "..t.."/conjure lightwall "..lightwalldir,"queue add eqbal qpshot")
+    sendAll("cq all","setalias qpshot "..prefix().."/remove "..myBow.."/wield "..myBow.."/pinshot "..t.."/conjure lightwall "..lightwalldir,"queue add eqbal qpshot")
   end
 elseif PinshotTimer then
   ak.serpent.Lockstack.main()
   send("queue addclear eqbal oattack")
   cecho("&lt;orange&gt;\n[PINSHOT]: &lt;yellow&gt;pinshot still active on &lt;red&gt;"..target.." &lt;yellow&gt;for &lt;white&gt;"..remainingTime(PinshotTimer).." seconds...\n")
   return
-elseif svo.inslowcuringmode() then
-  sendAll("cq all","setalias qpshot pinshot "..target,"queue add eqbal qpshot")
 elseif isLightWall() then
   mesmer_push()
-  sendAll("cq all","setalias qpshot "..prefix().."/block "..lightwalldir.."/remove "..myBow.."/wield "..myBow.."/pinshot "..target,"queue add eqbal qpshot")
+  sendAll("cq all","setalias qpshot "..prefix().."/remove "..myBow.."/wield "..myBow.."/pinshot "..target,"queue add eqbal qpshot")
 else
   mesmer_push()
-  sendAll("cq all","setalias qpshot "..prefix().."/block "..lightwalldir.."/remove "..myBow.."/wield "..myBow.."/pinshot "..target.."/conjure lightwall "..lightwalldir,"queue add eqbal qpshot")
+  sendAll("cq all","setalias qpshot "..prefix().."/remove "..myBow.."/wield "..myBow.."/pinshot "..target.."/conjure lightwall "..lightwalldir,"queue add eqbal qpshot")
 end
 
 
@@ -261,10 +259,6 @@ ak.oresetparse()
 cecho("&lt;light_slate_blue&gt;Your target is now: &lt;red&gt;"..target.."\n")
 mesmer.reset()
 cecho("&lt;light_slate_blue&gt;Mesmer reset: &lt;red&gt;"..target.."\n")
-
-if not svo.defc.phase then
-  send("hypnotic imprint " ..target)
-end
 
 if PartyLeader then
   send("pt Target: "..target)
