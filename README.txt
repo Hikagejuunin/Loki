@@ -4,25 +4,20 @@ Loki - a serpent combat system for Achaea
 ** note: includes AK aff tracker by Austere and a Mesmer by Isaiah
 
 
-To install either:
+To install:
 
-Install the Loki 1.0 package through Mudlets package manger OR import the "loki.1.0.scripts", "loki.1.0.aliases", "loki.1.0.triggers" files into Mudlet. You can get Mudlet here (https://www.mudlet.org/). 
+1) Have Mudlet installed. You can get Mudlet here (https://www.mudlet.org/).
 
-Loki is a serpent offense system to handle your venom selection, hypnosis queueing, and other various aspects of combat. 
+2) Install the Loki 1.0 package through Mudlets package manger 
+                                 OR 
+   import the "loki.1.0.scripts", "loki.1.0.aliases", "loki.1.0.triggers" files into Mudlet.  
 
-It's my hope this slimmed down, basic serpent offense system can encourage more involvement from those typically non-combatants as a functional framework to expand upon and create thier own systems.
-
-Shout out to Fen, Janella, Siv, Agramon, Arcturus, Balkin, Oblive, Essie, Sylvi and many many more.
-I'd also like to thank the third party code I made use of for this release, primarily Mesmer and Austere's AK tracker
-
-GETTING STARTED:
-
-First off make sure you edit the script "Lokisettings" with your own variables in the "--SYSTEM VARS" section. 
-The system's functioning depends on you providing your updated variables (equipment, snaketype ...etc)
-You can change most of the "--SYSTEM DEFAULTS" if you want, but the defaults are fine.
-
-** You will also want to add a custom prompt if ya got svof, otherwise see how Austere's AK handles that for other curing systems:
-*** Also I disabled the graphical AK stuff, if ya want it enable in Osettings! There you should also specify what dirk artefact you have, default is Thoth's
+3) Edit the script "Lokisettings" with your own variables in the "--SYSTEM VARS" section. 
+   The system's functioning depends on you providing your updated variables (equipment, snaketype ...etc)
+   You can change most of the "--SYSTEM DEFAULTS" if you want, but the defaults are fine.
+4) Edit the script "Osettings"
+      ** You will also want to add a custom prompt if ya got svof, otherwise see how Austere's AK handles that for other curing systems:
+      *** Also I disabled the graphical AK stuff, if ya want it enable in Osettings! There you should also specify what dirk artefact you have, default is Thoth's
 
 from AK tracker's Osettings!:
 ----------------------------------------------------------------------------------------------------------------------
@@ -44,7 +39,7 @@ from AK tracker's Osettings!:
 
 -----------------------------------------------------------------------------------------------------------------------
 
-EXAMPLE CUSTOM PROMPTS:
+EXAMPLE CUSTOM PROMPTS (SVO):
 
 --Hika original
 vconfig customprompt ^1@health^pinkhp^r@(diffhealth)^gray(^2@%health^g%^gray)^c|^2@mana^bmp^2^gray^b@diffmana^gray(^2@%mana^g%^gray)^c|^gray(@%endurance%^g^yellowen^gray)^c|^gray(@%willpower%^g^magentawp^gray)^c|^2^gold^DarkOrange@eqbal@affs^W-^c| ^r@target @promptstring @gametargethp ^y@ml_oprompt
@@ -55,6 +50,7 @@ vconfig customprompt ^SlateGrayH:^1@health^r@(diffhealth)^SlateGray(^azure@%heal
 --Hika new with \n
 vconfig customprompt \n^SlateGrayH:^1@health^r@(diffhealth)^SlateGray(^azure@%health%^SlateGray) ^SlateGrayM:^2@mana^b@(diffmana)^SlateGray(^azure@%mana%^SlateGray) ^DarkSlateGray(^G@%endurance^SlateGrayE ^G@%willpower^SlateGrayW^DarkSlateGray) ^2^gold^DarkOrange@eqbal @affs^W -^SlateGray ^red@target ^SlateGray(^w@gametargethp^SlateGray) ^y@ml_oprompt
 
+GETTING STARTED:
 
 CORE COMMANDS:
 
@@ -164,6 +160,7 @@ af = toggles autoflay
 as = toggles autosnapper
 nh = toggles hypnosis
 sv = summon your snake
+svi = summon your snake to inventory
 st = snap target
 
 --OTHER SETTINGS
