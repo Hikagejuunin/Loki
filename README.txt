@@ -4,9 +4,9 @@ Loki - a serpent combat system for Achaea
 ** note: includes AK aff tracker by Austere and a Mesmer by Isaiah
 
 
-To install first import the "loki.1.0.scripts", "loki.1.0.aliases", "loki.1.0.triggers" files into Mudlet (https://www.mudlet.org/). 
+To install either:
 
-I've included a read me in the scripts folder which I'll just dump here until I can give this more time.
+Install the Loki 1.0 package through Mudlets package manger OR import the "loki.1.0.scripts", "loki.1.0.aliases", "loki.1.0.triggers" files into Mudlet. You can get Mudlet here (https://www.mudlet.org/). 
 
 Loki is a serpent offense system to handle your venom selection, hypnosis queueing, and other various aspects of combat. 
 
