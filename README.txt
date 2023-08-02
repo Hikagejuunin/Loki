@@ -143,13 +143,15 @@ z = "vardrax",
 "vt none" = resets postlock to default 
 
 other aliases:
-  
+pvp = sets auto_assist true and shows you some info
+aa = auto_assist toggle
 ps = pinshot
 cl = conjure lightwall
 ms = push mesmer hypnosis
 tr = target reset
+mr = mesmer reset
 qh <option> = custom hypnosis, can also do [1-10] to set a custom seal time, then you can sugga <action1, action2, action3...etc> and progress hypnosis with the 'ms' alias (in situations such as theft)
-sn <direction> = snipe +- aim
+sn <direction> = snipe +- aim; can also just be 'sn' with no direction
 sm = shoot meteor
 pl = party leader (make target calls to party)
 pc = listen to party aff calls
@@ -157,9 +159,8 @@ pa = announce affs to party
 af = toggles autoflay
 as = toggles autosnapper
 nh = toggles hypnosis
-sv = summon your snake
-svi = summon your snake to inventory
 st = snap target
+bh = behead
 
 --OTHER SETTINGS
 "vt nt" = toggles if autosnap will wait to snap when tree is down
