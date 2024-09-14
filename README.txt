@@ -8,7 +8,7 @@ To install:
 
 1) Have Mudlet installed. You can get Mudlet here (https://www.mudlet.org/).
 
-2) Install the Loki 1.0 package through Mudlets package manger 
+2) Install the latest Loki package through Mudlets package manger 
 
 3) Edit the script "Lokisettings" with your own variables in the "--SYSTEM VARS" section. 
    The system's functioning depends on you providing your updated variables (equipment, snaketype ...etc)
