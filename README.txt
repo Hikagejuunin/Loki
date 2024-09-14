@@ -6,9 +6,9 @@ Loki - a serpent combat system for Achaea
 
 To install:
 
-1) Have Mudlet installed. You can get Mudlet here (https://www.mudlet.org/).
+1) Have Mudlet installed. You can download Mudlet here: https://www.mudlet.org
 
-2) Install the latest Loki package through Mudlets package manger 
+2) Install the latest Loki package through Mudlets package manager.
 
 3) Edit the script "Lokisettings" with your own variables in the "--SYSTEM VARS" section. 
    The system's functioning depends on you providing your updated variables (equipment, snaketype ...etc)
