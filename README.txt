@@ -113,54 +113,62 @@ z = "vardrax",
 --CUSTOM PVP SETTINGS
 "cs <class> = will set several offensive variables for a specific class
    example: "cs kni" = [imp] hypno; [wea] vstack; [wea] postlock
-   example: "cs drg" = [imp add hyp rec con] hypno; [wea/dark] vstack; [wea] postlock
+   example: "cs drg" = [imp rec hyp] hypno; [wea/dark] vstack; [wea/rec] postlock
 "cs" without an option will reset to defaults
 
 --VSTACK SELECTION
-"vt w" - weariness 
-"vt d" - darkshade
-"vt c" - clumsiness
-"vt k" - ast/weariness/clums/sensitivity
-"vt b" - clears all above venom selections, can be anything that is not one of the options, just like vt none clears postlock prefs
+"vt w"    - weariness 
+"vt c"    - clumsiness
+"vt d"    - darkshade
+"vt wd"   - weariness/darkshade
+"vt cd"   - weariness/darkshade
+"vt k"    - kelp stack (ast/weariness/clums/sensitivity)
+"vt dg"   - darkshade/ginseng stack
+"vt pl"   - party lock (group combat)
+"vt scy"  - scytherus (group combat) [toggle]
+"vt scy2" - scytherus2 (scytherus fork) [toggle]
+"vt b"    - clears all above venom selections, can be anything that is not one of the options, just like vt none clears postlock prefs
 
 --POST LOCK STACK
-"vt drg" = dragon (weariness/recklessness)
-"vt srp" = serpent (weariness)
-"vt kni" = knight [monk, paladin, blademaster...etc] (weariness)
-"vt alc" = alchemist (stupidity)
-"vt dru" = druid (voyria, weariness)
-"vt sha" = shaman (selarnia)
-"vt syl" = sylvan (voyria)
-"vt bar" = bard (voyria)
-"vt par" = pariah (voyria)
-"vt prt" = priest (voyria)
-"vt rwn" = "runewarden" (voyria)
-"vt pal" = paladin (voyria)
-"vt apo" = apostate (voyria)
-"vt occ" = occultist (voyria)
-"vt dsw" = depthswalker (recklessness)
-"vt aem" = airelemental (voyria)
-"vt none" = resets postlock to default 
+"vt drg"  - dragon (weariness/recklessness)
+"vt srp"  - serpent (weariness)
+"vt kni"  - knight [monk, paladin, blademaster...etc] (weariness)
+"vt alc"  - alchemist (stupidity)
+"vt dru"  - druid (voyria, weariness)
+"vt sha"  - shaman (selarnia)
+"vt syl"  - sylvan (voyria)
+"vt bar"  - bard (voyria)
+"vt par"  - pariah (voyria)
+"vt prt"  - priest (voyria)
+"vt rwn"  - "runewarden" (voyria)
+"vt pal"  - paladin (voyria, weariness)
+"vt apo"  - apostate (voyria)
+"vt occ"  - occultist (voyria)
+"vt dsw"  - depthswalker (recklessness)
+"vt aem"  - airelemental (voyria)
+"vt none" - resets postlock to default 
 
 other aliases:
-pvp = sets auto_assist true and shows you some info
-aa = auto_assist toggle
-ps = pinshot
-cl = conjure lightwall
-ms = push mesmer hypnosis
-tr = target reset
-mr = mesmer reset
-qh <option> = custom hypnosis, can also do [1-10] to set a custom seal time, then you can sugga <action1, action2, action3...etc> and progress hypnosis with the 'ms' alias (in situations such as theft)
-sn <direction> = snipe +- aim; can also just be 'sn' with no direction
-sm = shoot meteor
-pl = party leader (make target calls to party)
-pc = listen to party aff calls
-pa = announce affs to party
-af = toggles autoflay
-as = toggles autosnapper
-nh = toggles hypnosis
-st = snap target
-bh = behead
+mr - mesmer reset, will forceably reset opponents hypnosis status if things get buggy or you need to rehypno right away after a failed attempt
+tr - target reset (will reset hypnosis if target not sealed)
+ps - pinshot
+cl - conjure lightwall
+ms - push mesmer hypnosis
+qh <option> - custom hypnosis, can also do [1-10] to set a custom seal time, then you can sugga <action1, action2, action3...etc> and progress hypnosis with the 'ms' alias (in situations such as theft)
+sn <direction> - snipe +- aim
+sm - shoot meteor
+pl - party leader (make target calls to party)
+pc - listen to party aff calls
+pa - announce affs to party
+af - toggles autoflay
+as - toggles autosnapper
+nh - toggles hypnosis
+sv - summon snake
+svi - summon snake to inventory
+sk - snake keepup 
+st - snap target
+qp<venom> - preps quiver with whatever venom you designate ex: curare = qpc
 
 --OTHER SETTINGS
-"vt nt" = toggles if autosnap will wait to snap when tree is down
+"vt nt" - toggles if autosnap will wait to snap when tree is down 
+]]--
