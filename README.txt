@@ -2,8 +2,7 @@
 
 Loki - a serpent offense system for Achaea (Mudlet)
 
----------------------------------------------------------------------------------------------
-----------------------------
+-------------------------------------------------------------------------------------------------------------------------
 It's my hope this slimmed down, basic serpent offense system can encourage more involvement 
 from non-combatants as a functional framework to expand upon and create thier own systems.
 
