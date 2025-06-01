@@ -6,11 +6,11 @@ Loki - a serpent offense system for Achaea (Mudlet)
 It's my hope this slimmed down, basic serpent offense system can encourage more involvement 
 from non-combatants as a functional framework to expand upon and create thier own systems.
 
-Shout out to Sylvi, Fen, Janella, Siv, Agramon, Arcturus, Balkin, Oblive, Belaziel, Essie, 
+Shout out to Sylvi, Fen, Fendo, Janella, Siv, Agramon, Arcturus, Naytorlin, Balkin, Oblive, Gavai, Belaziel, Essie, 
 and many many more for helping me along the way.
 
 I'd also like to thank the third party code I made use of for this release, Mesmer by Isaiah 
-and Austere's AK tracker (v8.5)
+and Austere's AK tracker (v8.6.5) (modified)
 
 -------------------------------------------------------------------------------------------------------------------------
 GETTING STARTED:
