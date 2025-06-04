@@ -10,7 +10,7 @@ Shout out to Sylvi, Fen, Fendo, Janella, Siv, Agramon, Arcturus, Naytorlin, Balk
 and many many more for helping me along the way.
 
 I'd also like to thank the third party code I made use of for this release, Mesmer by Isaiah 
-and Austere's AK tracker (v8.6.5) (modified)
+and Austere's AK tracker (v8.6.4) (modified)
 
 -------------------------------------------------------------------------------------------------------------------------
 GETTING STARTED:
