@@ -4,10 +4,9 @@
  Loki 2.0 - Serpent Offense Framework for Achaea (Mudlet)
 -------------------------------------------------------------------------------------------------------------------------
 
-Loki is a lightweight, modular serpent offense system designed for the MUD Achaea. Built in Mudlet, it serves as a clean, extensible framework to empower newer combatants or tinkerers to build their own setups.
+Loki is a lightweight, modular serpent offense system designed for the MUD Achaea. Built in Mudlet, it's my hope this slimmed down, basic serpent offense system can encourage more involvement from non-combatants as a functional framework to expand upon and create thier own systems.
 
-This is a non-bloated, functional PvP framework with utilities and core logic based on experience, proven mechanics, and community-driven iteration.
-Acknowledgements
+-- Acknowledgements --
 
   🐍 Special thanks to:
 
@@ -202,7 +201,7 @@ bh - head your opponent with your sword
 --OTHER SETTINGS
 "vt nt" - toggles if autosnap will wait to snap when tree is down 
 
-This system is meant to evolve with your needs. Don’t be afraid to customize or expand—whether you're fine-tuning for 1v1 duels or leading coordinated group strikes, Loki 2.0 offers a flexible foundation.
+Don’t be afraid to reach out if you have any questions!
 
 🐍 Happy stabbing
 
