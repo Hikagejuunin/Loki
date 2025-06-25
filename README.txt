@@ -1,26 +1,28 @@
 --[[
 
 -------------------------------------------------------------------------------------------------------------------------
- Loki 2.0 - Serpent Offense Framework for Achaea (Mudlet)
+ Loki 2.1 - Serpent Offense Framework for Achaea (Mudlet)
 -------------------------------------------------------------------------------------------------------------------------
 
-Loki is a lightweight, modular serpent offense system designed for the MUD Achaea. Built in Mudlet, it's my hope this slimmed down, basic serpent offense system can encourage more involvement from non-combatants as a functional framework to expand upon and create thier own systems.
+Loki is a lightweight, modular serpent offense system designed for the MUD Achaea. It's my hope this slimmed down, basic serpent offense system can encourage more involvement from non-combatants as a functional framework to expand upon and create their own systems.
 
 -- Acknowledgements --
 
   🐍 Special thanks to:
 
-     Sylvi, Fen, Fendo, Janella, Siv, Agramon, Arcturus, Naytorlin, Balkin, Oblive, Gavai, Belaziel, Essie, and many others for support and insight.
+     Sylvi, Fen, Fendo, Janella, Siv, Agramon, Arcturus, Naytorlin, Balkin, Oblive, Gavai, Sprucegoose, Belaziel, Essie, and many others for support and insight.
 
     Isaiah for the Mesmer system
 
-    Austere for the AK Tracker (v8.6.4) – modified for Loki 2.0 integration
+    Austere for the AK Tracker (v8.6.4) – modified for Loki 2.1 integration
 
 ------------------- 
  GETTING STARTED:
 -------------------
 
 -- Installation --
+
+💡 Note: requires Mudlet client (https://www.mudlet.org/download/)
 
 Install via Mudlet's Package Manager:
     📦 GitHub Repository: https://github.com/Hikagejuunin/Loki
