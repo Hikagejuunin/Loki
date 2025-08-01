@@ -61,6 +61,8 @@ Type wshow display
 
 Add @owysprompt to your prompt string
 
+--Hika current
+wconfig prompt #red@paused@softpaused#DodgerBlue@retardation#yellow@phase#DarkGreen H:#hcolour@health#DarkGreen#SlateGray(@percenthealth%#SlateGray)#DarkGreen M:#mcolour@mana#DarkGreen#SlateGrey(@percentmana%#SlateGrey)#SlateGrey(E#DarkGreen@percentendurance#SlateGrey W#DarkGreen@percentwillpower#SlateGrey)@hiding@flying@slc@hikaaffs#SlateGray@hikamesmer@hikaauto - #red@target@npchp @owysprompt
 
 💡 Note: Graphical AK features are disabled by default. You can re-enable them via Osettings.
 💡 Note: in AK's Osettings script you should also specify what dirk artefact you have, default is Thoth's
