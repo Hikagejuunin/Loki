@@ -1,7 +1,7 @@
 --[[
 
 -------------------------------------------------------------------------------------------------------------------------
- Loki 2.1 - Serpent Offense Framework for Achaea (Mudlet)
+ Loki 2.1.1 - Serpent Offense Framework for Achaea (Mudlet)
 -------------------------------------------------------------------------------------------------------------------------
 
 Loki is a lightweight, modular serpent offense system designed for the MUD Achaea. It's my hope this slimmed down, basic serpent offense system can encourage more involvement from non-combatants as a functional framework to expand upon and create their own systems.
