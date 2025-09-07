@@ -1,7 +1,7 @@
 --[[
 
 -------------------------------------------------------------------------------------------------------------------------
- Loki 2.1.1 - Serpent Offense Framework for Achaea (Mudlet)
+ Loki 2.1.2 - Serpent Offense Framework for Achaea (Mudlet)
 -------------------------------------------------------------------------------------------------------------------------
 
 Loki is a lightweight, modular serpent offense system designed for the MUD Achaea. It's my hope this slimmed down, basic serpent offense system can encourage more involvement from non-combatants as a functional framework to expand upon and create their own systems.
@@ -144,7 +144,11 @@ z = "vardrax",
 "vt c"    - clumsiness
 "vt d"    - darkshade
 "vt wd"   - weariness/darkshade
-"vt cd"   - weariness/darkshade
+"vt wc"   - weariness/clumsiness
+"vt cd"   - clumsiness/darkshade
+"vt cw"   - clumsiness/weariness
+"vt an"   - addiction/nausea
+"vt na"   - nausea/addiction
 "vt k"    - kelp stack (ast/weariness/clums/sensitivity)
 "vt dg"   - darkshade/ginseng stack
 "vt pl"   - party lock (group combat)
@@ -201,6 +205,8 @@ nr - no rebounding (set rebounding false on target)
 noose - hang your oppenent from the trees
 exe - execute your oppoenent with your whip
 bh - head your opponent with your sword
+pvp - pvp mode, sets auto_assist on and shows combat settings
+lok - display combat settings, does not turn on auto_assist
 
 --OTHER SETTINGS
 "vt nt" - toggles if autosnap will wait to snap when tree is down 
@@ -210,3 +216,4 @@ Don’t be afraid to reach out if you have any questions!
 🐍 Happy stabbing
 
 ]]--
+
