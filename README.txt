@@ -10,7 +10,7 @@ Loki is a lightweight, modular serpent offense system designed for the MUD Achae
 
   🐍 Special thanks to:
 
-     Sylvi, Fen, Fendo, Janella, Siv, Agramon, Arcturus, Naytorlin, Balkin, Oblive, Gavai, Sprucegoose, Belaziel, Essie, and many others for support and insight.
+     Sylvi, Fen, Fendo, Janella, Siv, Agramon, Arcturus, Naytorlin, Balkin, Oblive, Gavai, Sprucebruce, Belaziel, Essie, Anaria and many others for support and insight.
 
     Isaiah for the Mesmer system
 
@@ -216,5 +216,6 @@ Don’t be afraid to reach out if you have any questions!
 🐍 Happy stabbing
 
 ]]--
+
 
 
