@@ -73,7 +73,7 @@ wconfig prompt #red@paused@softpaused#DodgerBlue@retardation#yellow@phase#DarkGr
 
 ds<xx> - dstab alias             
   example: ds<ck> = dstab curare/kalmia
-** 'ds' with no venoms specified will automatically select venoms from lockstack
+** 'ds' with no venoms specified will automatically select venoms from Lockstack script
 ** you can manipulate venom table loadouts with "vt <selection>"
   example: "vt w" = add weariness to lockstack 
     * currently only includes: "w" (weariness), "c" (clumsiness), "d" (darkshade), "wd" (weariness/darkshade), "cd" (clumsiness/darkshade),
@@ -134,8 +134,16 @@ z = "vardrax",
 
 --CUSTOM PVP SETTINGS
 "cs <class> = will set several offensive variables for a specific class
-   example: "cs rwn" = [imp] hypno; [wea] vstack; [wea] postlock
-   example: "cs drg" = [imp rec hyp] hypno; [wea/dark] vstack; [wea/rec] postlock
+   example: "cs rwn" = 
+                       [VSTACK]: weariness added to stack...
+                       [VSTACK]: post-lock set to runewarden (weariness, voyria)...
+                       [MESMER]: hyp hpr con added to queue...
+
+   example: "cs drg" = 
+                       [VSTACK]: weariness added to stack...
+                       [VSTACK]: post-lock set to dragon (weariness, recklessness)...
+                       [MESMER]: hyp hpr rec added to queue...
+             
 
 💡 Note: "cs" without an option will reset to defaults
 
@@ -216,6 +224,7 @@ Don’t be afraid to reach out if you have any questions!
 🐍 Happy stabbing
 
 ]]--
+
 
 
 
