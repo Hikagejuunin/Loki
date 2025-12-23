@@ -219,11 +219,14 @@ lok - display combat settings, does not turn on auto_assist
 --OTHER SETTINGS
 "vt nt" - toggles if autosnap will wait to snap when tree is down 
 
+"lhelp" - will print a summary of system commands
+
 Don’t be afraid to reach out if you have any questions!
 
 🐍 Happy stabbing
 
 ]]--
+
 
 
 
