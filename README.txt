@@ -68,6 +68,100 @@ wconfig prompt #red@paused@softpaused#DodgerBlue@retardation#yellow@phase#DarkGr
 
 💡 Note: Graphical AK features are disabled by default. You can re-enable them via Osettings.
 💡 Note: in AK's Osettings script you should also specify what dirk artefact you have, default is Thoth's
+💡 Note: in-game you can bring up the Loki Help printout using 'lhelp' (as seen below):
+
+                                      -------------
+                                      | Loki Help |
+                                      -------------
+[+]--------------------------------------------------------------------------------------[+]
+|     -=+Double Stab Commands+=-           |=======+ Auto & Manual Targetting Info +=======|
+[+]--------------------------------------------------------------------------------------[+]
+|     ds<xx> - dstab alias                                                                 |
+|       example: dsck = dstab curare/kalmia                                                |
+|  * 'ds' with no venoms specified will automatically select venoms from lockstack         |
+|     * you can manipulate venom table loadouts with: vt <option>                          |
+|          example: vt w = add weariness to lockstack                                      |
+|          options: ven: w,c,d,wd,wc,cw,cd,an,na,k,dg,pl  mod: scy,scy2,sleep              |
+[+]--------------------------------------------------------------------------------------[+]
+|     -=+Manual Venom Selection+=-         |========+ Manual DSTAB Venom Selection +=======|
+[+]--------------------------------------------------------------------------------------[+]
+| a - aconite ------>(Stupidity)(E:Plumbum)     n - selarnia-->(Unbond)(A:Mending)         |
+| c - curare ------->(Paralysis)(E:Magnesium)   o - voyria---->(R.I.P.)(SP:Immunity)       |
+| d - delphinium --->(Sleep)(E:Kola)(Metawake)  p - prefarar-->(Sensitivity)(E:Aurum)      |
+| e - eurypteria --->(Recklessness)(E:Argentum) q - epseth---->(Shriveled Legs)(A:Mending) |
+| f - epteth ------->(Shrivel Arms)(A:Mending)  r - darkshade->(Sunlight Allergy)(E:Ferrum)|
+| g - gecko -------->(Slickness)(S:Realgar)     s - slike----->(Anorexia)(A:Epidermal)     |
+| i - digitalis ---->(Shyness)(E:Plumbum)       u - euphorbia->(Nausea)(E:Ferrum)          |
+| k - kalmia ------->(Asthma)(E:Aurum)          v - vernalius->(Weariness)(E:Aurum)        |
+| l - larkspur ----->(Dizziness)(E:Plumbum)     x - xentio---->(Clumsiness)(E:Aurum)       |
+| m - monkshood ---->(Disfigure)(S:Realgar)     z - vardrax--->(Addiction)(E:Ferrum)       |
+[+]--------------------------------------------------------------------------------------[+]
+|     -=+Bite Commands+=-                  |=======+ Auto & Manual Targetting Info +=======|
+[+]--------------------------------------------------------------------------------------[+]
+|     bs<x> - bite alias                                                                   |
+|       example: bso = bite voyria                                                         |
+|  * 'bs' with no venoms specified will automatically select venoms from bitestack         |
+[+]--------------------------------------------------------------------------------------[+]
+|     -=+Manual Venom Selection+=-         |========+ Manual BITE Venom Selection +========|
+[+]--------------------------------------------------------------------------------------[+]
+| a - aconite ------>(Stupidity)(E:Plumbum)     n - notechis-->(Haemophilia)(E:Ferrum)     |
+| c - camus -------->(Damage)(SP:Health)        o - voyria---->(R.I.P.)(SP:Immunity)       |
+| d - delphinium --->(Sleep)(E:Kola)(Metawake)  p - prefarar-->(Sensitivity)(E:Aurum)      |
+| e - eurypteria --->(Recklessness)(E:Argentum) q - epseth --->(Shriveled Legs)(A:Mending) |
+| f - epteth ------->(Shrivel Arms)(A:Mending)  r - darkshade->(Sunlight Allergy)(E:Ferrum)|
+| g - gecko -------->(Slickness)(S:Realgar)     s - scytherus->(Relapsing Affs)(E:Ferrum)  |
+| i - digitalis ---->(Shyness)(E:Plumbum)       u - euphorbia->(Nausea)(E:Ferrum)          |
+| k - kalmia ------->(Asthma)(E:Aurum)          v - vernalius->(Weariness)(E:Aurum)        |
+| l - loki ----->(Fratricide)(E:Ferrum)         x - xentio---->(Clumsiness)(E:Aurum)       |
+| m - nechamandra ---->(Shivering)(A:Caloric)   y - oculus---->(Sight)(E:Arsenic)          |
+|                                               z - vardrax--->(Addiction)(E:Ferrum)       |
+[+]--------------------------------------------------------------------------------------[+]
+|        -=+Settings Aliases+=-               |=======+ Aliases for Loki Settings +========|
+[+]--------------------------------------------------------------------------------------[+]
+|     pvp - pvp mode - enables auto-assist, displays current combat settings               |
+|     lok - loki display - displays current combat settings without enabling auto-assist   |
+|     aa - auto-assist - toggles auto-assist, when on will queue stabs on target cures     |
+|     tar - set target - sets your target, if you use your own make sure it updates AK/Loki|
+|     cs <class> - class settings - default combat settings for a given class (ex: cs srp) |
+|     vt <option> - venom table - venom selection and other lockstack settings             |
+|     vt <class> - set class - will set target class for postlock, cs alias also does this |
+|     vt nt - no tree - toggles if autosnap will consider tree downtime for snaps          |
+|     qh <option> - queue hypnosis - pre-set hypno sets (ex: qh hyp - hyp hpr con)         |
+|                   options: hyp,nau,add,con,dis,hpr,hpr2,overkill,sleep                   |
+|                     you can also do [1-10] to set a custom seal time, then you can       |
+|                     sugga <action1, action2, action3...etc> and progress hypnosis        |
+|                     with the 'ms' alias (in situations such as theft)                    |
+|     imp <aff> - impulse setting - sets default impulse (ex: imp rec - adds recklessness) |
+|                   options: dea,rec,epi,hal,mas,con,ver,dem,stt,ago,cla,lon,stu,par,amn   |
+|     tr - target reset - resets target afflictions and mesmer status if not sealed        |
+|     mr - mesmer reset - resets mesmer status, useful if mesmer breaks                    |
+|     nr - no rebounding - sets targets rebounding status to false for backstab purposes   |
+|     af - auto-flay - toggles automatic handling of rebounding and shield flays           |
+|     as - auto-snap - toggles automatic handling of snaps                                 |
+|     nh - no hypnosis -toggles mesmer hypnosis on or off                                  |
+|     sk - snake keepup -toggles automatic snake summoning                                 |
+|     pl - party leader - toggles making target calls to party                             |
+|     pc - party calls - toggles listening to party affliction calls                       |
+|     pa - party affs - toggles announcing afflictions to party                            |
+|     qp <venom> - quiver prep - will envenom your arrows with a venom (ex: qpc - curare)  |
+|     chaseon|chaseoff - chase - toggles automatic goto target on farsee                   |
+[+]--------------------------------------------------------------------------------------[+]
+|        -=+Other Aliases+=-               |=======+ Commonly Used Aliases for Loki +======|
+[+]--------------------------------------------------------------------------------------[+]
+|     ms - mesmer suggest - manually progresses hypnosis, except for snap                  |
+|     sn <direction> - snipe + direction - direction optional, will aim if provided        |
+|     sm - shoot meteor                                                                    |
+|     ps - pinshot - pinshots target if not already pinshot or shielding                   |
+|     bk<venom> - backstab target - with specific venom (ex: bkd - backstabs delphinium)   |
+|     cl - conjure lightwall                                                               |
+|     sv - summon viper - summon your snake                                                |
+|     svi - summon viper inventory - summon your snake to your inventory                   |
+|     st - snap target                                                                     |
+|     bh - behead - only disables auto-assist, will want to disable curing                 |
+|     exe - execute - only disables auto-assist, will want to disable curing               |
+|     noose - noose - will need noose in inventory, only disables auto-assist              |
+|     lhelp - loki help - displays summary of system commands                              |
+[+]--------------------------------------------------------------------------------------[+]
 
 -------------------
  CORE COMMANDS:
@@ -228,6 +322,7 @@ Don’t be afraid to reach out if you have any questions!
 🐍 Happy stabbing
 
 ]]--
+
 
 
 
