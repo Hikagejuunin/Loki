@@ -172,8 +172,10 @@ ds<xx> - dstab alias
 ** 'ds' with no venoms specified will automatically select venoms from Lockstack script
 ** you can manipulate venom table loadouts with "vt <selection>"
   example: "vt w" = add weariness to lockstack 
-    * currently only includes: "w" (weariness), "c" (clumsiness), "d" (darkshade), "wd" (weariness/darkshade), "cd" (clumsiness/darkshade),
-                               "k" (kelp stack), "dg" (darkshade/ginseng), "pl" (partylock), "scy" (impulse fork), "scy2" (scytherus fork), "sleep" (for sleeplock)
+    * currently only includes: venoms: "w" (weariness), "c" (clumsiness), "d" (darkshade), "wd" (weariness/darkshade), "wc" (weariness/clumsiness), "cw" (clumsiness/weariness), 
+                               "cd" (clumsiness/darkshade), "an" (addiction/nausea), "na" (nausea/addiction)
+                               stacks: "k" (kelp stack), "dg" (darkshade/ginseng), "pl" (partylock), 
+                               mods: "scy" (impulse fork), "scy2" (scytherus fork), "sleep" (for sleeplock)
     
     - this is something you could easily expand upon
 
@@ -322,6 +324,7 @@ Don’t be afraid to reach out if you have any questions!
 🐍 Happy stabbing
 
 ]]--
+
 
 
 
