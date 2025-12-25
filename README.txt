@@ -14,7 +14,7 @@ Loki is a lightweight, modular serpent offense system designed for the MUD Achae
 
     Isaiah for the Mesmer system
 
-    Austere for the AK Tracker (v8.6.4) – modified for Loki 2.1 integration
+    Austere for the AK Tracker (v8.6.4) – modified for Loki integration
 
     Myrddin for lhelp UI
 
@@ -324,6 +324,7 @@ Don’t be afraid to reach out if you have any questions!
 🐍 Happy stabbing
 
 ]]--
+
 
 
 
