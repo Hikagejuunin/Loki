@@ -286,8 +286,8 @@ z = "vardrax",
 
 other aliases:
 mr - mesmer reset, will forceably reset opponents hypnosis status if things get buggy or you need to rehypno right away after a failed attempt
-tr - target reset (will reset hypnosis if target not sealed)
-aa - toggles autoassist
+tr - target reset, will reset target afflictions and (will reset hypnosis if target not sealed)
+aa - toggles autoassist (requeues attacks on opponent cures)
 ps - pinshot
 bk<venom> - backstab (ex: bkd = backstab delphinium)
 cl - conjure lightwall
@@ -324,6 +324,7 @@ Don’t be afraid to reach out if you have any questions!
 🐍 Happy stabbing
 
 ]]--
+
 
 
 
