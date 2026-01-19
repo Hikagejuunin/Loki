@@ -12,9 +12,9 @@ Loki is a lightweight, modular serpent offense system designed for the MUD Achae
 
      Sylvi, Fen, Fendo, Janella, Siv, Agramon, Arcturus, Naytorlin, Balkin, Oblive, Gavai, Sprucebruce, Belaziel, Essie, Anaria and many others for support and insight.
 
-    Isaiah for the Mesmer system
+    Isaiah for the Mesmer system - modified for hypnosis changes
 
-    Austere for the AK Tracker (v8.6.4) – modified for Loki integration
+    Austere for the AK Tracker (v8.6.4) – modified for Loki integration, updated for serpent changes
 
     Myrddin for lhelp UI
 
@@ -324,6 +324,7 @@ Don’t be afraid to reach out if you have any questions!
 🐍 Happy stabbing
 
 ]]--
+
 
 
 
