@@ -1,7 +1,7 @@
 --[[
 
 ------------------------------------------------------------------------------------------------------------
- Loki 2.1.4 - Serpent Offense Framework for Achaea (Mudlet)
+ Loki 2.1.5 - Serpent Offense Framework for Achaea (Mudlet)
 ------------------------------------------------------------------------------------------------------------
 
 Loki is a lightweight, modular serpent offense system designed for the MUD Achaea. It's my hope this slimmed down, basic serpent offense system can encourage more involvement from non-combatants as a functional framework to expand upon and create their own systems.
@@ -70,6 +70,7 @@ wconfig prompt #red@paused@softpaused#DodgerBlue@retardation#yellow@phase#DarkGr
 💡 Note: in AK's Osettings script you should also specify what dirk artefact you have, default is Thoth's
 💡 Note: in-game you can bring up the Loki Help printout using 'lhelp' (as seen below):
 
+ 
                                       -------------
                                       | Loki Help |
                                       -------------
@@ -81,7 +82,7 @@ wconfig prompt #red@paused@softpaused#DodgerBlue@retardation#yellow@phase#DarkGr
 |  * 'ds' with no venoms specified will automatically select venoms from lockstack         |
 |     * you can manipulate venom table loadouts with: vt <option>                          |
 |          example: vt w = add weariness to lockstack                                      |
-|          options: ven: w,c,d,wd,wc,cw,cd,an,na,k,dg,pl  mod: scy,scy2,sleep              |
+|          options: ven: w,c,d,wd,wc,cw,cd,an,na,k,dg,pl,pl2  mod: scy,scy2,sleep          |
 [+]--------------------------------------------------------------------------------------[+]
 |     -=+Manual Venom Selection+=-         |========+ Manual DSTAB Venom Selection +=======|
 [+]--------------------------------------------------------------------------------------[+]
@@ -258,6 +259,7 @@ z = "vardrax",
 "vt k"    - kelp stack (ast/weariness/clums/sensitivity)
 "vt dg"   - darkshade/ginseng stack
 "vt pl"   - party lock (group combat)
+"vt pl2"  - party damage (group combat)
 
 --VSTACK MODIFIERS
 "vt scy"  - scytherus (group combat) [mod]
